@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>联想中国-联想商城</title>
+<link rel="shortcut icon" href="image/4234267.ico" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<!--<script src="js/jquery-1.9.1.min.js"></script>-->
+<!-- <script src="new_file.js" type="text/javascript" charset="utf-8"></script> -->
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<div id="nav">
+	<div class="nav_main">
+    	<div class="nav_left">
+    	<ul>
+    		<li><a href="#" style="margin-left:0px;" >个人及家用产品库</a>|</li>
+            <li><a href="#">商用产品库</a>|</li>
+            <li><a href="#">企业级产品库</a>|</li>
+            <li><a href="#">聚享汇会员专享</a>|</li>
+            <li id="ud1"><a href="#" style="margin-right:0px;" onmouseover="how()"onmouseout="ho()">社交平台
+            	<span class="updown_pic" id="ud_pic"></span>
+            </a>&nbsp;| 
+            <div class="nav_ud_div" id="nav_ud" >
+                	<ul>
+                    	<li><a href="#">联想官方微博</a></li>
+                    	<li><a href="#">杨元庆微博</a></li>
+                    	<li><a href="#">联想官方微信</a></li>
+                    	<li><a href="#">百度贴吧联想吧</a></li>
+                    	<li><a href="#">联想兴趣部落</a></li>
+                    	<li><a href="#">联想官方社区</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#" style="margin-right:0px;" id="ud2">手机版 <span class="updown_pic"></span></a> &nbsp;</li>
+           
+		</ul>
+    	</div>
+        <div class="nav_right">
+            <ul>
+                <li><a href="#">登录</a>|</li>
+                <li><a href="#">注册</a>|</li>
+                <li><a href="#"><span style="margin-right:0px; position:relative; top:2px;">购物车</span></a><span class="cart_pic"></span>&nbsp;<span class="cart_txt">0</span></li>
+            </ul>
+    	</div>
+    </div>
+</div>
+<!-- 顶部导航end -->
+<!-- 头部主体 -->
+<div id="main">
+	<div id="top">
+        <div id="top_bigPic" ><a href="#"><img src="image/top_bigPic.jpg" height="400px" id="bigpic"/></a></div>
+        <div id="top_ltPic"><a href="#"><img src="image/top_little.jpg" height="100px" id="ltpic"/></a></div>
+        
+    	<div class="top_find">
+        	<div class="top_logo"><a href="#" class="logo_link"></a></div>
+            <div class="top_search">
+            	<div class="top_input"><input value="miix5"/></div>
+                <a href="#" class="in_txt1">拯救者</a>
+                <a href="#" class="in_txt2">New S2</a>
+                <a href="#" class="in_txt3">小新</a>
+                <a class="bbb" href="#"><div class="sc_divlist"><span>Miix 4</span><label>历史记录</label></div></a>
+                <a href="#" class="aaa"><div class="top_searchPic"></div></a>
+            </div>
+        </div>
+    	<div class="menu_txt">
+        	<div class="m_txt">
+            	<ul>               	
+                    <li style="margin-left:200px;"><a href="#">小新310</a><span class="newGoods"></span></li>
+                    <li><a href="#">爆款</a></li>
+                    <li><a href="#">联想合伙人</a><span class="hotGoods"></span></li>
+                    <li><a href="#">0元试用</a></li>
+                    <li><a href="#">以旧换新</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">社区</a></li>              	
+                </ul>
+            </div>
+        </div>
+        <div class="top_menu" >
+        	<!--商品列表-->
+        	<div class="top_menu_leftNav" >
+            	<ul  onmouseout="showGoods(3)" >
+                	<li id="lenovoHd" onmouseover="showGoods(0)" ><a href="#">Lenovo 电脑 <span class="tml_next">&gt;</span></a></li>
+                    <li id="ThinkPadHd" onmouseover="showGoods(1)" ><a href="#">ThinkPad 电脑 <span class="tml_next">&gt;</span></a></li>
+                    <li id="ipadHd" onmouseover="showGoods(2)" ><a href="#">平板电脑 <span class="tml_next">&gt;</span></a></li>
+                    <li><a href="#">手机</a></li>
+                    <li><a href="#">通信卡 <span class="tml_next">&gt;</span></a></li>
+                    <li><a href="#">智能电视</a></li>
+                    <li><a href="#">打印机 <span class="tml_next">&gt;</span></a></li>
+                    <li><a href="#">智能数码 <span class="tml_next">&gt;</span></a></li>
+                    <li><a href="#">电脑增值服务 <span class="tml_next">&gt;</span></a></li>
+                    <li style="line-height:39px; border-bottom:none;"><a href="#" >商用产品 <span class="tml_next">&gt;</span></a></li>
+                </ul>
+            </div>
+            <div class="goodsList" id="lenovo" onmouseover="showGoods(0)" onmouseout="showGoods(3)">
+            	<div class="goodsList_txt">
+                	<ul>
+                    	<li><a href="#">Lenovo 笔记本</a></li>
+						<li class="gt1">|<a href="#">常规笔记本</a>|<a href="#">超轻薄笔记本</a>|<a href="#">互联网爆款</a>|<a href="#">游戏本</a>|<a href="#">变形笔记本</a></li>
+						<li><a href="#">笔记本场景</a></li>
+                        <li class="gt2">|<a href="#">校园学生</a>|<a href="#">时尚女生</a>|<a href="#">家庭娱乐</a>|<a href="#">商务办公</a>|<a href="#">高清游戏</a>|<a href="#">轻薄便携</a></li>
+						<li><a href="#">台式机</a></li>
+						<li class="gt3">|<a href="#">一体台式机</a>|<a href="#">分体台式机</a>|<a href="#">显示器</a></li>
+						<li><a href="#">台式机场景</a></li>
+						<li class="gt4">|<a href="#"> 金榜题名</a>|<a href="#">疯狂游戏</a>|<a href="#">致美大屏</a>|<a href="#">家庭娱乐</a>|<a href="#">商务办公</a>|<a href="#">随心触控</a></li>
+                    </ul>
+                </div>
+                <div class="goodsList_pic">
+                	<div><img src="image/tml1.jpg"/></div>
+                    <div><img src="image/tml2.jpg"/></div>
+                </div>
+            </div>
+            <div class="goodsList" id="ThinkPad" onmouseover="showGoods(1)" onmouseout="showGoods(3)">
+            	<div class="goodsList_txt">
+                	<ul>
+                    	<li><a href="#">ThinkPad 笔记本</a></li>
+						<li class="gt1">|<a href="#">常规笔记本</a>|<a href="#">超轻薄笔记本</a>|<a href="#">互联网爆款</a>|<a href="#">游戏本</a>|<a href="#">变形笔记本</a></li>
+						<li><a href="#">笔记本场景</a></li>
+                        <li class="gt2">|<a href="#">校园学生</a>|<a href="#">时尚女生</a>|<a href="#">家庭娱乐</a>|<a href="#">商务办公</a>|<a href="#">高清游戏</a>|<a href="#">轻薄便携</a></li>
+						<li><a href="#">台式机</a></li>
+						<li class="gt3">|<a href="#">一体台式机</a>|<a href="#">分体台式机</a>|<a href="#">显示器</a></li>
+						<li><a href="#">台式机场景</a></li>
+						<li class="gt4">|<a href="#"> 金榜题名</a>|<a href="#">疯狂游戏</a>|<a href="#">致美大屏</a>|<a href="#">家庭娱乐</a>|<a href="#">商务办公</a>|<a href="#">随心触控</a></li>
+                    </ul>
+                </div>
+                <div class="goodsList_pic">
+                	<div><img src="image/tml3.jpg"/></div>
+                    <div><img src="image/tml4.jpg"/></div>
+                </div>
+            </div>
+            <div class="goodsList" id="ipad" onmouseover="showGoods(2)" onmouseout="showGoods(3)">
+            	<div class="goodsList_txt">
+                	<ul>
+                    	<li><a href="#">平板电脑</a></li>
+						<li class="gt1">|<a href="#">常规笔记本</a>|<a href="#">超轻薄笔记本</a>|<a href="#">互联网爆款</a>|<a href="#">游戏本</a>|<a href="#">变形笔记本</a></li>
+						<li><a href="#">笔记本场景</a></li>
+                        <li class="gt2">|<a href="#">校园学生</a>|<a href="#">时尚女生</a>|<a href="#">家庭娱乐</a>|<a href="#">商务办公</a>|<a href="#">高清游戏</a>|<a href="#">轻薄便携</a></li>
+						<li><a href="#">台式机</a></li>
+						<li class="gt3">|<a href="#">一体台式机</a>|<a href="#">分体台式机</a>|<a href="#">显示器</a></li>
+						<li><a href="#">台式机场景</a></li>
+						<li class="gt4">|<a href="#"> 金榜题名</a>|<a href="#">疯狂游戏</a>|<a href="#">致美大屏</a>|<a href="#">家庭娱乐</a>|<a href="#">商务办公</a>|<a href="#">随心触控</a></li>
+                    </ul>
+                </div>
+                <div class="goodsList_pic">
+                	<div><img src="image/tml5.jpg"/></div>
+                    <div><img src="image/tml6.jpg"/></div>
+                </div>
+            </div>
+            
+            <!--轮播图片-->
+            <div class="top_menu_scrollPic" id="scroll">
+                 <ul class="scroll_img">
+                    <li style="display:block" ><img src="image/scroll01.jpg" id="scrollImg" /></li>
+           	 	</ul>
+                <div class="scroll_num" >
+            		 <ul>
+                        <li id="scrollNum1" onmouseover="ScrollPic(0)" onmouseout="scroollNumOut()">1</li>
+                        <li id="scrollNum2" onmouseover="ScrollPic(1)" onmouseout="scroollNumOut()">2</li>
+                        <li id="scrollNum3" onmouseover="ScrollPic(2)" onmouseout="scroollNumOut()">3</li>
+                        <li id="scrollNum4" onmouseover="ScrollPic(3)" onmouseout="scroollNumOut()">4</li>
+                        <li id="scrollNum5" onmouseover="ScrollPic(4)" onmouseout="scroollNumOut()">5</li>
+                        <li id="scrollNum6" onmouseover="ScrollPic(5)" onmouseout="scroollNumOut()">6</li>
+          		 	 </ul>
+       			</div>
+                <div id="left_right_btn">
+                    <p id="pre">&lt;</p>	
+                    <p id="next">&gt;</p>	
+        		</div>
+            </div>
+            
+            <!--右侧广告公告-->
+            <div class="top_menu_infoTxt">
+            	<div id="top_message">
+                	<span style="font-size:19px; position:absolute;">☞</span>
+                    <ul id="uuTxt">
+                    	<li><a href="#">四年延保，大学放肆耍！</a></li>
+                    	<li><a href="#">MOTO首发，你还在等什么？</a></li>
+                    	<li><a href="#">注册会员即送乐豆，评论、晒单乐豆十倍送，100乐豆=1元钱哦！</a></li>
+                    </ul>
+                </div>
+                <div class="tm_tl">
+                	<span>精彩讨论</span> <a href="#">更多 ></a>
+                </div>
+                <div class="tm_list">
+                	<li><a href="#">【拆机】拯救者-15拆机教程</a></li>
+                    <li><a href="#">【体验】Moto Z Play 国行首发开箱图</a></li>
+                    <li><a href="#">【评测】ThinkPad黑将S5黑色款使用</a></li>
+                    <li><a href="#">【新品】 变形本家族又壮大 IFA电子展</a></li>
+                    <li><a href="#">【玩机】给电脑快速降温，动手拆机更</a></li>
+                    <li><a href="#">【科技观察室】第3期 扒一扒联想的那</a></li>
+                    <li><a href="#">【晒单】超值超好用，联想小新310S</a></li>
+                </div>
+            </div>
+             <div id="cb_bar">
+        		<ul>
+                	<li><a href="#">拆机</a></li>
+                    <li><a href="#">体验</a></li>
+                    <li><a href="#">评测</a></li>
+                    <li><a href="#">新品</a></li>
+                </ul>
+                <div class="backTop" onclick="tiw()">回到顶部</div>
+        	</div>
+        </div>
+        
+        <div class="top_slide">
+        	<div class="ts_pic"><img src="image/tj.jpg"/></div>
+            <div id="slide_pic">
+            	<a href="javascript:void(0);"><div id="ts_leftPic">&lt;</div></a>
+            	<ul id="uuPic">
+                	<li><a href="#"><img src="image/slide01.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide02.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide03.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide04.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide05.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide06.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide07.jpg"/></a></li>
+                    <li><a href="#"><img src="image/slide08.jpg"/></a></li>
+                </ul>
+                <a href="javascript:void(0);"><div id="ts_rightPic">&gt;</div></a>
+            </div>        
+        </div>
+    </div>
+    <div class="star_goods">
+    	<!-- 右边楼层导航栏 -->
+    	<div class="rightNavBar" id="rnb">
+        	<div >
+            	<ul>
+                	<li><a href="#" id="star_txt">★</a></li>
+                    -
+                    <li><a href="#" id="like_txt">♥</a></li>
+                    -
+                    <li><a href="#" id="1f_txt">1F</a></li>
+                    -
+                    <li><a href="#" id="2f_txt">2F</a></li>
+                    -
+                    <li><a href="#" id="3f_txt">3F</a></li>
+                </ul>
+            </div>
+        </div> 
+    	<div class="star_top"><p>明星单品</p><div class="sg_zy">&lt;  &gt;</div></div>
+        <div class="star_bottom" id="star-computer">
+<!--          <a href="#">
+        	<dl style="border-left:none;">
+            	<dt><img src="image/star01.jpg"/></dt>
+                <dd>小新Air12-金（6Y30 4G</dd>
+				<dd>支持4G 乐享生活</dd>
+				<dd style="color:red;">3,999元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl>
+            	<dt><img src="image/star02.jpg"/></dt>
+                <dd>小新Air Pro(I5 Windows 10 家</dd>
+				<dd>大内存 多选硬盘 还要更轻薄！</dd>
+				<dd style="color:red;">5,499元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl> 
+            	<dt><img src="image/star03.jpg"/></dt>
+                <dd>ThinkPad 黑将S5</dd>
+				<dd>黑将临世 生为竞技</dd>
+				<dd style="color:red;">6,499元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl>        
+            	<dt><img src="image/star04.jpg"/></dt>
+                <dd>拯救者15-ISK i5极速版</dd>
+				<dd>GTX960M专业游戏显卡</dd>
+				<dd style="color:red;">5,799元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl> 
+            	<dt><img src="image/star05.jpg"/></dt>
+                <dd>联想UM10C直播版手机麦克风</dd>
+				<dd>限时限量送手环</dd>
+				<dd style="color:red;">399元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl style="border-right:none;">
+            	<dt><img src="image/star06.jpg"/></dt>
+                <dd>联想（lenovo）300M无线路由</dd>
+				<dd>6折优惠，就是这么任性</dd>
+				<dd style="color:red;">79元</dd>
+            </dl>
+           </a>
+        </div> -->
+    </div>
+    <div class="like_goods">
+    	<div class="like_top"><p>猜你喜欢</p><div class="lt_hh"><a href="#" id="test">换一批 С</a></div></div>
+        <div class="like_bottom">
+           <a href="#">
+        	<dl style="border-left:none;">
+            	<dt><img src="image/star01.jpg"/></dt>
+                <dd>小新Air12-金（6Y30 4G</dd>
+				<dd>支持4G 乐享生活</dd>
+				<dd style="color:red;">3,999元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl style="border-left:none;">
+            	<dt><img src="image/star02.jpg"/></dt>
+                <dd>小新Air Pro(I5 Windows 10 家</dd>
+				<dd>大内存 多选硬盘 还要更轻薄！</dd>
+				<dd style="color:red;">5,499元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl style="border-left:none;"> 
+            	<dt><img src="image/star03.jpg"/></dt>
+                <dd>ThinkPad 黑将S5</dd>
+				<dd>黑将临世 生为竞技</dd>
+				<dd style="color:red;">6,499元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl style="border-left:none;">        
+            	<dt><img src="image/star04.jpg"/></dt>
+                <dd>拯救者15-ISK i5极速版</dd>
+				<dd>GTX960M专业游戏显卡</dd>
+				<dd style="color:red;">5,799元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl style="border-left:none;"> 
+            	<dt><img src="image/star05.jpg"/></dt>
+                <dd>联想UM10C直播版手机麦克风</dd>
+				<dd>限时限量送手环</dd>
+				<dd style="color:red;">399元</dd>
+            </dl>
+           </a>
+           <a href="#">
+            <dl style="border:none;">
+            	<dt><img src="image/star06.jpg"/></dt>
+                <dd>联想（lenovo）300M无线路由</dd>
+				<dd>6折优惠，就是这么任性</dd>
+				<dd style="color:red;">79元</dd>
+            </dl>
+           </a>
+        </div>
+    </div>
+</div>
+<!-- 头部主体end -->
+
+<!-- 楼层部分 -->
+<div id="floor">
+	<!-- 楼层主体 -->
+	<div id="floor_main">
+		<div class="one_floor">
+        	<div class="one_floorTitle">
+            	<span>1F Lenovo</span> 
+                <p>电脑YOGA4 | Pro系列 | V4000系列	 | 拯救者系列 | 700S系列 | Y900系列	 <a href="#">更多 &gt;</a></p>
+            </div>
+            <div class="one_floorContent">
+            	<div class="of_left"><img src="image/1f.jpg"></div>
+                <div id="of_right">
+                	<dl>
+                    	<dt onMouseOver="overhd('0')" onmouseout="showBl('0')"><img src="image/1f01.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('1')" onmouseout="showBl('1')"><img src="image/1f02.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('2')" onmouseout="showBl('2')"><img src="image/1f03.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('3')" onmouseout="showBl('3')"><img src="image/1f04.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('4')" onmouseout="showBl('4')"><img src="image/1f05.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('5')" onmouseout="showBl('5')"><img src="image/1f06.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('6')" onmouseout="showBl('6')"><img src="image/1f07.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overhd('7')" onmouseout="showBl('7')"><img src="image/1f08.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    	<div class="two_floor">
+        	<div class="two_floorTitle"> 	
+            	<span>2F ThinkPad</span> 
+                <p>电脑X1 系列 | X系列 | E系列	 | S系列  <a href="#">更多 &gt;</a></p>
+            </div>
+            <div class="two_floorContent">
+            	<div class="tf_left"><img src="image/2f.jpg"></div>
+                <div class="tf_right" id="tf_rights">
+                	<dl>
+                    	<dt onMouseOver="overh('0')" onmouseout="show('0')"><img src="image/2f01.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('1')" onmouseout="show('1')"><img src="image/2f02.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('2')" onmouseout="show('2')"><img src="image/2f03.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('3')" onmouseout="show('3')"><img src="image/2f04.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('4')" onmouseout="show('4')">><img src="image/2f05.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('5')" onmouseout="show('5')"><img src="image/2f06.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('6')" onmouseout="show('6')"><img src="image/2f07.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                    <dl>
+                    	<dt onMouseOver="overh('7')" onmouseout="show('7')"><img src="image/2f08.jpg" /></dt>
+                        <dd>小新Air12-金（6Y30 4G</dd>
+						<dd>支持4G 乐享生活</dd>
+						<dd style="color:red;">3,999元</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="last_floor">
+        	<div class="lf_txt">lastF 交友平台</div>
+            <div class="lf_pic">
+        		<div class="lf_pic1"><a href="#"><img src="image/lastf01.jpg"/></a></div>
+            	<div class="lf_pic2"><a href="#"><img src="image/lastf02.jpg"/></a></div>
+                <div class="lf_pic3"><a href="#"><img src="image/lastf03.jpg"/></a></div>
+                <div class="lf_pic4"><a href="#"><img src="image/lastf04.jpg"/></a></div>
+                <div class="lf_pic5"><a href="#"><img src="image/lastf05.jpg"/></a></div>
+                <div class="lf_pic6"><a href="#"><img src="image/lastf06.jpg"/></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 楼层主体end -->
+    
+    <!-- 底部 -->
+		<div id="bottom_server"></div>
+        <div id="bottom_link"></div>
+	<!-- 底部end -->
+</div>
+<!-- 楼层部分end -->
+<script src="new_file.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
